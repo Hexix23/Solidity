@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -26,6 +26,25 @@
 			{
 				"inputs": [],
 				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -156,17 +175,21 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts\\SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -179,10 +202,11 @@
 	},
 	"sources": {
 		"contracts\\SimpleStorage.sol": {
-			"keccak256": "0x153d0ec960a0781a26a7f918f70172608a5a6570fdefa94318182471de1747ef",
+			"keccak256": "0x1883520a90c5d120e0925363bd5edcbd2cd2cc55227ba1b9cf343a268b89d3b8",
+			"license": "MITs",
 			"urls": [
-				"bzz-raw://dada716dae0f6d852596ddbed40b6eef487a97138fdd534a11e80faed5af8560",
-				"dweb:/ipfs/Qma9UCoKPKyYwrKYNaZRhKBTnP5CeuuUPZnLFgDZHS4LwR"
+				"bzz-raw://9c24b22d2dada23f485d23b05c013fe64d56737d60eb3baa83e0f38c6bb9da6b",
+				"dweb:/ipfs/QmXTBYcgbPx9qiox1VxxNeF6P3WugqLj5JRRMy2Up8LyVT"
 			]
 		}
 	},

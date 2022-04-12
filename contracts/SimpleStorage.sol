@@ -1,6 +1,6 @@
-// SPDX-License-Identifier: MIT -> meaning that it is public domain and is a better way to show and trust ur contract to the community. ( its like a standar of the community )
-
-pragma solidity  ^0.6.0;
+// SPDX-License-Identifier: MITs
+                                //-> meaning that it is public domain and is a better way to show and trust ur contract to the community. ( its like a standar of the community )
+pragma solidity  >= 0.6.0 < 0.9.0;
 
 contract SimpleStorage {
 
