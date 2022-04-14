@@ -4,7 +4,7 @@ Multi-Signatute Wallets allow a wallet to be controlled by more than 1 owner. In
 
 ### Deploy Multi-Sig Contract Using Remix
 
-1. Compile and deploy contracts on JVM to check all is working well 
+1. **Compile and deploy contracts on JVM to check all is working well**
 
 - Copy MultiSigWallet.sol Solidity Code into a file in Remix rename MultiSigWallet.sol
 - Select Solidity Compiler Page
@@ -24,7 +24,7 @@ Multi-Signatute Wallets allow a wallet to be controlled by more than 1 owner. In
     - Call functions => getOwners, getTransaction, getTransactionCount, isConfirmed, owners, transactions etc
     - Transacting functions => submiTransaction, confirmTransaction, executeTransaction, revokeTransaction
 
-1. Deploy Contract to Kovan Testnet
+2. **Deploy Contract to Kovan Testnet**
 
 - Select Deploy and Run Transactions Page
   - Environment dropdown select Injected Web3 (to allow use of Metamask)
