@@ -25,7 +25,7 @@ Multi-Signatute Wallets allow a wallet to be controlled by more than 1 owner. In
     - Transacting functions => submiTransaction, confirmTransaction, executeTransaction, revokeTransaction
 
 2. **Deploy Contract to Kovan Testnet**
----
+
 - Select Deploy and Run Transactions Page
   - Environment dropdown select Injected Web3 (to allow use of Metamask)
   - Accounts dropdwon will have first currently selected Metamask account
