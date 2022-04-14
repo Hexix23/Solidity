@@ -60,6 +60,9 @@ Multi-Signatute Wallets allow a wallet to be controlled by more than 1 owner. In
       - Paste the contract address
       - Click "Verify Contract"
 
+### Contract Address Deployed Example
+[https://kovan.etherscan.io/address/0x3465732ae320d35872a23b110d244c1714fee816](https://kovan.etherscan.io/address/0x3465732ae320d35872a23b110d244c1714fee816)
+
 
 
 
