@@ -42,6 +42,23 @@ Multi-Signatute Wallets allow a wallet to be controlled by more than 1 owner. In
   - View buttons for all the functions you can carry out on contract e.g 
     - Call functions => getOwners, getTransaction, getTransactionCount, isConfirmed, owners, transactions etc
     - Transacting functions => submiTransaction, confirmTransaction, executeTransaction, revokeTransaction
+- Verify Contracts
+  - User REMIX to view the contracts
+  - Go to "Plugin Manager"
+    - Type "ETHERSCAN - CONTRACT VERIFICATION"
+    - Activate the plugin
+  - Go to the plugin
+    - Click "Settings"
+      - Enter the API Key from Etherscan
+    - Click "Home"
+      - Select the contract you want to verify
+      - Select the constructor arguments
+        - Go to etherscan.io and search for the contract
+        - Click " Click to see more "
+        - Go " Input Data "
+        - Copy the data from the constructor { at the end of the input data after "0033"}
+      - Paste the contract address
+      - Click "Verify Contract"
 
 
 
